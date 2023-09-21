@@ -70,6 +70,12 @@ defmodule Games do
   end
 
   defp incorrect_input() do
-    IO.puts("Incorrect input")
+    error_message = """
+    =========================================
+    Incorrect input
+    =========================================
+    """
+
+    IO.puts(error_message)
   end
 end
